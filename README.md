@@ -27,7 +27,7 @@ It includes:
 - Glove embedding
 - Spacy simple idx embedding
 
-**Transformers for text generation and classification**
+**Transformers for text generation and classification:**
 - BERT
 - GPT2
 - Transfer learning using hugging face library for text generation
