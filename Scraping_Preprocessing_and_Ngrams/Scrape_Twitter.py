@@ -4,8 +4,8 @@ import re
 
 class Scrape_Twitter():
     def __init__(self): 
-        self.__consumerKey = "1QDlVRE5NzzicIcukrnrELqUA"
-        self.__consumerSecret = "s2cQB0QZCqcGnsxqfUHIjJ0dA59lw1yGLh9mD0QCkeypJBgSdq"
+        self.__consumerKey = "<your key>"
+        self.__consumerSecret = "<your key>"
         
         print("-- Obtaining OAuth 2 token")
         twitter = Twython(self.__consumerKey, self.__consumerSecret, oauth_version=2)
